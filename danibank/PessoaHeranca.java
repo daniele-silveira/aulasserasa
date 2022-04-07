@@ -13,17 +13,17 @@ public class PessoaHeranca {
 	
 	
 	
-	public PessoaHeranca(String nome, String email, String telefone) {
+	public PessoaHeranca(String nome,  String email, String telefone) {
 		super();
 		this.nome = nome;
 		this.email = email;
 		this.telefone = telefone;
 	}
 
-	public String getNome() { // set exibe os nomes
+	public String getNome() { // get exibe os objetos
 		return nome;
 	}
-	public void setNome(String nome) { // get grava os objetos nos atribustos
+	public void setNome(String nome) { // set grava os objetos nos atributos
 		this.nome = nome;
 	}
 	
@@ -41,7 +41,9 @@ public class PessoaHeranca {
 	}
 	
 	
+
+	
+	
 	
 	
 }
-

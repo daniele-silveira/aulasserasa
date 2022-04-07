@@ -7,7 +7,7 @@ public class PessoaFisica extends PessoaHeranca {
 	private String profissao;
 	
 	public PessoaFisica() {//gcfs
-		super();
+		
 		
 	}
 
